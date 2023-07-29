@@ -7,7 +7,7 @@ Clone the full software package which includes the pre-trained model. The comman
 ```bash
 git clone https://github.com/alimardani76/pyex
 ```
-installing the presiquites:
+### installing the presiquites:
 cd to the directory where requirements.txt is located. 
 activate your virtualenv. This command will install the packages according to the configuration file requirements.txt.
 ```bash
@@ -28,3 +28,5 @@ The main_inference, notebook file simulates the PRICO process using calculations
         [4]compressor_exergy_loss(MW)
         [5]valve_exergy_loss(MW)
         [6]aftercooler_exergy_loss(MW)
+## 💡 Availablity of Dataset
+The dataset of harvested data via HYSYS v8.8 for exergy losses of all units and other KPIs is available at [Here](https://drive.google.com/file/d/1CUv7sIIqoT0YdJZUeMUHnar8EEgH3qgN/view?usp=sharing)
