@@ -1,5 +1,11 @@
 # pyexergy
-The aim of this project is the fast calculation of exergy loss and KPIs of the PRICO process by a fully connected DNN. The calculations of exergy loss was carried out using the method developed in (https://doi.org/10.1016/j.jclepro.2020.123161) and the main simulation and collection of data is done via python and HYSYS v8.8 interface.
+ ______   _________  _______ ____   ______   __
+|  _ \ \ / | ____\ \/ | ____|  _ \ / ___\ \ / /
+| |_) \ V /|  _|  \  /|  _| | |_) | |  _ \ V / 
+|  __/ | | | |___ /  \| |___|  _ <| |_| | | |  
+|_|    |_| |_____/_/\_|_____|_| \_\\____| |_|  
+                                               
+The aim of this project is the fast calculation of exergy loss and KPIs of the PRICO process by a fully connected DNN. The calculations of exergy loss were carried out using the method developed in (https://doi.org/10.1016/j.jclepro.2020.123161) and the main simulation and collection of data is done via Python and HYSYS v8.8 interface.
 ## usage
 Clone the full software package which includes the pre-trained model. The command is as follows:
 ```bash
@@ -11,18 +17,18 @@ activate your virtualenv. This command will install the packages according to th
 ```bash
 pip install -r requirements.txt 
 ```
-## features and outputs of ML model 
-In the main inference
+## Usage of ML model 
+The main_inference, notebook file simulates the PRICO process using calculations by our pre-trained model initiated in init.py. The features and the labels of the model are listed in the section below:
 ### The features:
         the composition of coolant gas:
         [1-10](Methane%, Ethane%, Propane%, Butane%, Nitrogen%, Ammonia%, Chlorine%, Ethylene%, Propene%, Isobutane%),
-        [11]MR1_molar_flow,(The refrigrant mole/s) 
-        [12]Compressor inlet pressure
-        [13]Compressor outlet pressure
+        [11]MR molar flow (kgmole/s) 
+        [12]Compressor inlet pressure (kPa)
+        [13]Compressor outlet pressure (kPa)
 ### The labels:
-        [1]vapor_fraction of the compressor inlet,
-        [2]approach_temperature,
-        [3]LNG_exergy_loss,
-        [4]compressor_exergy_loss,
-        [5]valve_exergy_loss and
-        [6]aftercooler_exergy_loss
+        [1]vapor_fraction of the compressor inlet,(-)
+        [2]approach_temperature(C)
+        [3]LNG_exergy_loss(MW)
+        [4]compressor_exergy_loss(MW)
+        [5]valve_exergy_loss(MW)
+        [6]aftercooler_exergy_loss(MW)
