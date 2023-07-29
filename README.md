@@ -5,7 +5,7 @@ The aim of this project is the fast calculation of exergy loss and KPIs of the P
 ## 🕶 Installation
 Clone the full software package which includes the pre-trained model. The command is as follows:
 ```bash
-git clone https://github.com/alimardani76/pyex
+git clone https://github.com/alimardani76/pyexergy
 ```
 ### installing the presiquites:
 cd to the directory where requirements.txt is located. 
