@@ -29,4 +29,4 @@ The main_inference, notebook file simulates the PRICO process using calculations
         [5]valve_exergy_loss(MW)
         [6]aftercooler_exergy_loss(MW)
 ## 💡 Availablity of Dataset
-The dataset of harvested data via HYSYS v8.8 for exergy losses of all units and other KPIs is available at [Here](https://drive.google.com/file/d/1CUv7sIIqoT0YdJZUeMUHnar8EEgH3qgN/view?usp=sharing)
+The dataset of harvested data(which the model is trained on) via interconnecting Python and HYSYS v8.8 containing exergy losses of all units and other KPIs is available at [Here](https://drive.google.com/file/d/1CUv7sIIqoT0YdJZUeMUHnar8EEgH3qgN/view?usp=sharing).
