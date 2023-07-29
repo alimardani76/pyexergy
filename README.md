@@ -1,6 +1,8 @@
-# pyexergy                                           
+# 🦾 PyExergy 
+![Picture1](https://github.com/alimardani76/pyexergy/assets/91133401/38b834c0-ed05-4090-a9e5-7def43c71659)
+
 The aim of this project is the fast calculation of exergy loss and KPIs of the PRICO process by a fully connected DNN. The calculations of exergy loss were carried out using the method developed in (https://doi.org/10.1016/j.jclepro.2020.123161) and the main simulation and collection of data is done via Python and HYSYS v8.8 interface.
-## usage
+## 🕶 Installation
 Clone the full software package which includes the pre-trained model. The command is as follows:
 ```bash
 git clone https://github.com/alimardani76/pyex
@@ -11,7 +13,7 @@ activate your virtualenv. This command will install the packages according to th
 ```bash
 pip install -r requirements.txt 
 ```
-## Usage of ML model 
+## 🧠 Usage of ML model 
 The main_inference, notebook file simulates the PRICO process using calculations by our pre-trained model initiated in init.py. The features and the labels of the model are listed in the section below:
 ### The features:
         the composition of coolant gas:
