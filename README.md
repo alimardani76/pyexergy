@@ -1,18 +1,7 @@
 # pyexergy
- ______   _________  _______ ____  
-|  _ \ \ / / ____\ \/ / ____|  _ \ 
-| |_) \ V /|  _|  \  /|  _| | |_) |
-|  __/ | | | |___ /  \| |___|  _ < 
-|_|    |_| |_____/_/\_\_____|_| \_\
-                                   
-  ______   __
- / ___\ \ / /
-| |  _ \ V / 
-| |_| | | |  
- \____| |_|  
-           
-            
-                                               
+<div style="background-color: #c2dfff; padding: 20px; text-align: center; font-size: 36px;">
+PyExergy
+</div>                                             
 The aim of this project is the fast calculation of exergy loss and KPIs of the PRICO process by a fully connected DNN. The calculations of exergy loss were carried out using the method developed in (https://doi.org/10.1016/j.jclepro.2020.123161) and the main simulation and collection of data is done via Python and HYSYS v8.8 interface.
 ## usage
 Clone the full software package which includes the pre-trained model. The command is as follows:
