@@ -29,7 +29,7 @@ git clone https://github.com/alimardani76/pyexergy.git
 cd pyexergy
 
 # Install required packages
-pip install -r requirements.txt
+pip install -r numpy onnx==1.21.0 onnxruntime==1.14.1 pandas jupyterlab
 
 ```
 
